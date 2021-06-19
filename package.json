@@ -1,11 +1,11 @@
 {
-  "name": "sparkCloud",
+  "name": "sparkcloud",
   "version": "0.1.0",
   "description": "nas cloud",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
+    "start": "node server.js"
   },
   "author": "Huang Zhengpeng",
   "license": "ISC",
