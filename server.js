@@ -1,5 +1,5 @@
 const express = require("express")
-// const morgan=require("morgan")
+const morgan=require("morgan")
 const routers=require("./routers")
 const path = require('path');
 
@@ -8,7 +8,7 @@ const port=8000
 const app=express()
 app.use(express.urlencoded({extended:false}))//配置body模块。为了给req增加body，得到post传值
 app.use(express.json())//将数据转换为json。为了给req增加body，得到post传值。
-// app.use(morgan("short"))//logger本地记录访问信息
+app.use(morgan("short"))//logger本地记录访问信息
 
 //判断是什么端的请求并返回入口文件
 app.get("/",(req,res, next)=>{

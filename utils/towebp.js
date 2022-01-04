@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const webp = require('gulp-webp');
 const fs=require("fs")
 
-gulp.src("死亡代理人.jpg")
+gulp.src("未标题-1.jpg")
 .pipe(webp())
 .pipe(gulp.dest('webp'))
 

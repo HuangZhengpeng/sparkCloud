@@ -95,6 +95,10 @@ input {
     user-select:none;
     -webkit-user-select:none;
     -moz-user-select:none;
+
+    scrollbar-color: transparent transparent;
+    scrollbar-track-color: transparent;
+    -ms-scrollbar-track-color: transparent;
 }
 
 
